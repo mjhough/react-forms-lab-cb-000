@@ -20,6 +20,7 @@
     "chai": "^3.5.0",
     "enzyme": "^2.7.0",
     "expect": "^1.20.2",
+    "mocha-multi": "^1.0.1",
     "react": "^15.5.4",
     "react-addons-test-utils": "^15.4.2",
     "react-dom": "^15.5.4",
@@ -29,8 +30,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "mocha -w test/helpers.js test/*.js",
-    "dev:hot":
-      "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./",
+    "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./",
     "test:watch": "npm run test -- --watch",
     "eject": "react-scripts eject"
   }
